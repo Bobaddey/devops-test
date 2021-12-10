@@ -10,7 +10,7 @@ env:
   DOCKER_TAG: latest
   K8S_NAMESPACE: default
   K8S_DEPLOYMENT: default
-  AWS_REGION: eu-west-2
+  AWS_REGION: eu-east-1
   EKS_CLUSTER_NAME: api-v1-staging-eks 
   AWS_DEFAULT_OUTPUT: json
   AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
